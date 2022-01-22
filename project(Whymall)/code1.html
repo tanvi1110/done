@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>margin collapse</title>
+    <link rel="stylesheet" href="code1.css">
+    <style>
+      *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+           border: 2px solid white;
+           height: 56px;
+           background: black;
+           color: aliceblue;
+        }
+        .box1{
+           background-color: red;
+           height: 90vh;
+           padding: 34px;
+           
+        }
+        .box2{
+            background: green;
+            padding: 24px;
+            height: 90vh;
+
+        }
+        footer{
+            background-color: blue;
+            margin: 0px;
+            height: 18px;
+            border: 0px;
+
+        }
+        .center{
+            text-align: center;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>CONTENT</li>
+        </ul>
+        <div class="box1">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero vel excepturi a ipsum? Ipsam facilis repellendus officiis, nulla error voluptatem, perspiciatis aliquid cupiditate molestiae minus laborum ab eius labore suscipit nemo? In, possimus? Magnam vel eum officia, temporibus modi eligendi consequuntur magni debitis a!
+        </div>
+        <div class="box2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum placeat et, id quod, laudantium harum illo voluptate omnis explicabo distinctio maxime at neque repudiandae! Ullam non incidunt esse tempora repudiandae similique eaque!
+        </div>
+        
+        <footer><p class ="center ">Copyright sorts menia 007 &copy;</p>
+        </footer>
+    </header>
+</body>
+</html>

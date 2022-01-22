@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+   <style>
+      /* *{
+          margin: 0;
+          padding: 0;
+          height: 4444px;
+      } */
+      ul{
+          background-color: brown;
+                     
+      }
+      
+      li{
+         /* display: inline;     */
+         list-style: square outside url( );
+
+      }
+      header{
+          background: black; 
+          color: white;
+          height: 80px;
+          position: sticky;
+          top: 0;
+          z-index: 1;
+        }
+        p{
+            text-align: center;
+            border: 2px solid red ;
+        }
+        .container{
+      background: green;
+      height: 50vh;
+      width: 50vw;
+      margin: auto;
+      padding:0 34px;
+      position: relative;
+      
+      
+    }
+    .box{
+        height: 200px;
+        width: 200px;
+        background-color: yellow;
+        /* position:  relative ; */
+        /* position: absolute ; */
+    }
+    .box2{
+        height: 200px;
+        width: 200px;
+        background-color: violet;
+        bottom:0;
+        /* left: 0; */
+        right: 0;
+        top: 0;
+        position: fixed;
+       
+    }
+
+   </style>
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+            <li>HOME </li>
+            <LI>ABOUT</LI>
+            <LI>CONTACT</LI>
+            <LI>BLOG</LI>
+        </ul>
+    </nav>
+  </header>
+    <div class="container">
+       <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolores veniam qui quidem repellendus illo, sint quisquam excepturi. Harum quam minus fugiat deserunt!
+       </p>
+       <div class ="box" >
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sequi consectetur ea, omnis corrupti adipisci?
+           
+       </div>
+       <div class="box2">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi officia distinctio quisquam, repudiandae ipsam repellendus ut rerum voluptatibus, quas maxime alias tempore ab beatae enim dicta doloribus dignissimos reprehenderit, quibusdam ullam quis quasi? Minus!
+       </div>
+    </div>    
+     <ul>
+          <li>Apple </li>
+          <li>Banana</li>
+          <li>Oranges </li>
+     </ul>
+</body>
+</html>

@@ -1,0 +1,15 @@
+*{
+  margin: 5;
+  padding: 5;
+}
+
+.red  {
+  background: red;
+  color: aliceblue;
+  height: 344px;
+}
+
+.orange{
+  background: orange;
+  color: blue;
+}
