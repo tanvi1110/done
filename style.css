@@ -1,0 +1,13 @@
+
+body{
+    background-color: rgb(32, 211, 151);
+}
+#first{
+    background-color: blue;
+    color: aliceblue;
+}
+.bg-blue{
+  background-color: coral;
+  color: aliceblue;
+}
+
